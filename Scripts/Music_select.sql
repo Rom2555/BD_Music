@@ -36,7 +36,7 @@ FROM Tracks t
 JOIN Albums a ON t.album_id = a.album_id
 WHERE a.release_year IN (2019, 2020);
 
--- Средняя продолжительность треков по каждому альбому.
+-- Средняя продолжительность треков по каждому альбому
 SELECT a.title AS album_title, AVG(t.duration) AS avg_duration
 FROM Tracks t
 JOIN Albums a ON t.album_id = a.album_id
