@@ -1,7 +1,7 @@
 -- Таблица жанров
 CREATE TABLE Genres (
-    genre_id SERIAL PRIMARY KEY,
-    name TEXT NOT NULL UNIQUE
+	genre_id SERIAL PRIMARY KEY,
+	name TEXT NOT NULL UNIQUE
 );
 
 -- Таблица исполнителей
